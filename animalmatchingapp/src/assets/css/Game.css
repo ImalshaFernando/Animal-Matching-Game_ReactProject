@@ -1,0 +1,20 @@
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+img {
+    transition: transform 0.2s;
+}
+img:hover {
+    transform: scale(1.1);
+}
