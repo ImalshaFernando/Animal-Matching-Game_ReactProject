@@ -15,9 +15,9 @@ const Game = () => {
     // Function to check the player's choice
     const handleAnimalClick = (animalName) => {
         if (animalName === randomAnimal) {
-            setResult("Win");
+            setResult("You Win");
         } else {
-            setResult("Lose");
+            setResult("You Lose");
         }
     };
 
@@ -25,7 +25,7 @@ const Game = () => {
     const animalImages = AnimalsDb.map((animal, index) => (
         <img
             key={index}
-            src={animal.image}
+            src={(`./assets/${animal.img}`)}
             alt={animal.name}
             onClick={() => handleAnimalClick(animal.name)}
             style={{ width: "100px", cursor: "pointer", margin: "10px" }}

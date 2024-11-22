@@ -3,9 +3,9 @@ h1 {
     color: #333;
 }
 button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    background-color: #66a8ef;
+    color: #6b74f0;
+    border: "1";
     border-radius: 5px;
     cursor: pointer;
 }
