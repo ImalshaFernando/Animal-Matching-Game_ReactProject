@@ -25,7 +25,7 @@ const Game = () => {
     const animalImages = AnimalsDb.map((animal, index) => (
         <img
             key={index}
-            src={(`./assets/${animal.img}`)}
+            src={animal.image}
             alt={animal.name}
             onClick={() => handleAnimalClick(animal.name)}
             style={{ width: "100px", cursor: "pointer", margin: "10px" }}
